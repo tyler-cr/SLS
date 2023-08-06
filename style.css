@@ -3,21 +3,21 @@ html{
     color: slategray;
     text-align: center;
     font-family: 'REM', sans-serif;
+    max-height: fit-content;
+    max-width: fit-content;
+    height: 100%;
+    font-size: 1.5vw;
 }
 img{
+    max-width: 60%;
+    height: 100%;
+    width: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
     object-fit: fill;
 }
 
-#wrench{
-    border: 0px;
-    width: 800;
-    height: 800px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: fit-content;
-    max-width: fit-content;
+#logo{
+    max-width: 20%;
 }
