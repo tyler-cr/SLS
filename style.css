@@ -1,0 +1,23 @@
+html{
+    background-color: black;
+    color: slategray;
+    text-align: center;
+    font-family: 'REM', sans-serif;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: fill;
+}
+
+#wrench{
+    border: 0px;
+    width: 800;
+    height: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+    max-width: fit-content;
+}
