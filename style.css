@@ -3,23 +3,41 @@ html{
     color: slategray;
     text-align: center;
     font-family: 'REM', sans-serif;
-    height: 100%;
-    width: 100%;
-    font-size: 1.5vw;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    display: inline-block;
-}
-img{
-    max-width: 40%;
-    max-height: 40%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    object-fit: contain;
-    padding: 0px;
+    font-size: 1.3vw;
 }
 
 #logo{
-    max-width: 20%;
+    max-width: 20vw;
+}
+
+#wrench{
+    max-width: 70vw;
+    max-height: 65vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (orientation: portrait){
+    .flex{
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        height: 90vh;
+
+    }
+    #logo{
+        max-width: 40%;
+    }
+
+    h4{
+        font-size: 3vw;
+    }
+    
+    #wrench{
+        max-width: 60vw;
+        max-height: 60vh;
+    }
 }
